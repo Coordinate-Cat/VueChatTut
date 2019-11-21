@@ -1,16 +1,23 @@
 # vue-chatkit
+[![npm version][npm-img]][npm] [![netlify-status][netlify-img]][netlify]
+## deploy
+[https://mystifying-bose-20acae.netlify.com/]
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/)
 
-## connect
-[http://localhost:8080/](http://localhost:8080/)
+## local
 [http://localhost:8080/chat](http://localhost:8080/chat)
 
-## まずったところ
+## まずった
+
+元のコードと自分のlint設定に差異があってエラー出まくった
+下記例
+
 store/index.js
 ERROR:Expected an assignment or function call and instead saw an
  expression
 ```
 getters: {
-  <!-- hasError: state => state.error ? true : false //動かん-->
+  <!-- hasError: state => state.error ? true : false //動かん -->
   hasError: state => state.error
 },
 ```
@@ -33,22 +40,6 @@ data () { //dataと()の間開ける
     }
   },
 ```
-
-src/chatkit.js
-```
-const MESSAGE_LIMIT = Number(process.env.VUE_APP_MESSAGE_LIMIT) || 10 // eslint-disable-line
-...
-let activeRoom = null // eslint-disable-line
-```
-
-store/mutations.js
-- ESLintのエラー出まくり
-- ERROR:indent
-- 元々VScodeのタブでのインデントでの設定がスペース4つなので2に変更
-
-/ほとんどのファイル
-- 最後空白行入れないとエラー出る
-- 元のコード自体に","など余計なものが多い
 
 ## Project setup
 ```
