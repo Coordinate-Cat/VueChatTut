@@ -26,9 +26,6 @@ export default {
       }))
       commit('setRooms', rooms)
 
-      // Test state.user
-      console.log(state.user)
-
       // Subscribe user to a room
       const activeRoom = state.activeRoom || rooms[0] // pick last used room, or the first one
       commit('setActiveRoom', {
