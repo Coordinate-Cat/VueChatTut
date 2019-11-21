@@ -1,7 +1,7 @@
 # vue-chatkit
-[![npm version][npm-img]][npm] [![netlify-status][netlify-img]][netlify]
+
 ## deploy
-[https://mystifying-bose-20acae.netlify.com/]
+[https://mystifying-bose-20acae.netlify.com/] <br>
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/)
 
 ## local
