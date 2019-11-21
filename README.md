@@ -1,4 +1,4 @@
-# vue-chatkit
+# VueChatTut
 
 ## deploy
 [https://mystifying-bose-20acae.netlify.com/] <br>
